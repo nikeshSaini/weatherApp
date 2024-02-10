@@ -84,6 +84,10 @@ body {
     font-size: 24px;
     text-transform: capitalize;
 }
+.temperature-units{
+    position: absolute;
+    z-index: 10;
+}
 
 .weather-details{
     /* border: 1px solid black; */
