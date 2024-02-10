@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
     const searchButton = document.querySelector('.search-box button');
     const celsiusRadio = document.getElementById("celsius");
     const fahrenheitRadio = document.getElementById("fahrenheit");
@@ -64,4 +64,4 @@ document.addEventListener('DOMContentLoaded', () => {
         humidity.textContent = `${weatherData.main.humidity}%`;
         wind.textContent = `${weatherData.wind.speed} km/h`;
     }
-});
+
